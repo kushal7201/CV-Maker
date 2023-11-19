@@ -5,7 +5,8 @@ This application streamlines the process of crafting a resume for individuals, o
 ***
 
 ### Technologies used:
-- Java Language
+- Java
+- Swing
 - itextpdf
 - JavaFX Framework
 - Scenebuilder
@@ -35,3 +36,9 @@ https://github.com/kushal7201/CV-Maker
   <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Projects.png" height="300px;" alt=""/>
   <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Achievements.png" height="300px;" alt=""/>
 </p>
+
+***
+### Contributors
+- Kushal Bansal
+- Aditya Khairnar
+- Piyush Tiwari
