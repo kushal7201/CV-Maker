@@ -25,3 +25,13 @@ https://github.com/kushal7201/CV-Maker
 
 ***
 ### App Images
+<p float="left">
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Login%20Page.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Home.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Personal%20Info.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Education.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Skills.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Work%20Experience.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Projects.png" height="300px;" alt=""/>
+  <img src="https://github.com/kushal7201/CV-Maker/blob/main/Generated%20CV/Achievements.png" height="300px;" alt=""/>
+</p>
