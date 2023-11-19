@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="659.0" prefWidth="1283.0" style="-fx-background-color: #4B4453;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Login">
+   <children>
+      <ImageView fitHeight="300" fitWidth="350" layoutX="199" layoutY="170">
+         <image>
+            <Image url="@../images/icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="697.0" layoutY="235.0" prefHeight="25.0" prefWidth="120.0" text="Username" textFill="#ffee00">
+         <font>
+            <Font name="Times New Roman Bold" size="26.0" />
+         </font>
+      </Label>
+      <Label layoutX="698.0" layoutY="274.0" text="Password" textFill="#ffee00">
+         <font>
+            <Font name="Times New Roman Bold" size="26.0" />
+         </font>
+      </Label>
+      <TextField fx:id="username" layoutX="834.0" layoutY="237.0" promptText="Username" style="-fx-background-radius: 5;" />
+      <Button fx:id="button" layoutX="753.0" layoutY="340.0" mnemonicParsing="false" onAction="#userlogin" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #ffee00; -fx-background-radius: 5;" text="Login">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwo" layoutX="834.0" layoutY="276.0" promptText="Password" style="-fx-background-radius: 5;" />
+      <Button fx:id="skipb" layoutX="851.0" layoutY="340.0" mnemonicParsing="false" onAction="#skip" prefHeight="25.0" prefWidth="76.0" style="-fx-background-color: #ffee00; -fx-background-radius: 5;" text="Skip">
+         <font>
+            <Font name="Times New Roman Bold" size="13.0" />
+         </font></Button>
+      <Label fx:id="wronglogin" layoutX="836.0" layoutY="205.0" prefHeight="17.0" prefWidth="149.0" textFill="RED" />
+      <ImageView fitHeight="48.0" fitWidth="40.0" layoutX="742.0" layoutY="398.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleMailClick">
+         <image>
+            <Image url="@../images/gmail.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="32.0" fitWidth="40.0" layoutX="830.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleGithubClick">
+         <image>
+            <Image url="@../images/github.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="36.0" fitWidth="40.0" layoutX="905.0" layoutY="397.0" pickOnBounds="true" preserveRatio="true" onMouseClicked="#handleLinkedinClick">
+         <image>
+            <Image url="@../images/linkedin.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

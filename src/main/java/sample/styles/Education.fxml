@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="659.0" prefWidth="1283.0" style="-fx-background-color: #64adf6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Education">
+   <stylesheets>
+      <URL value="@filestyle.css" />
+   </stylesheets>
+   <children>
+      <Label alignment="CENTER" layoutX="521.0" layoutY="63.0" prefHeight="74.0" prefWidth="290.0" text="Education" textFill="#000000">
+         <font>
+            <Font name="Times New Roman Bold" size="44.0" />
+         </font>
+      </Label>
+      <TextField fx:id="PassYear" alignment="BOTTOM_CENTER" layoutX="94.0" layoutY="343.0" prefHeight="31.0" prefWidth="136.0" promptText="Pass Year" style="-fx-background-color: #ffffff; -fx-border-color: #4b4453;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Institute" alignment="BOTTOM_CENTER" layoutX="130.0" layoutY="180.0" prefHeight="35.0" prefWidth="263.0" promptText="Name of Institute" style="-fx-border-color: #4b4453; -fx-background-color: #ffffff;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Course" alignment="BOTTOM_CENTER" layoutX="179.0" layoutY="272.0" prefHeight="25.0" prefWidth="166.0" promptText="Course" style="-fx-border-color: #4b4453; -fx-background-color: #ffffff;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Grade" alignment="BOTTOM_CENTER" layoutX="277.0" layoutY="343.0" prefHeight="31.0" prefWidth="136.0" promptText="Grade" style="-fx-background-color: #ffffff; -fx-border-color: #4b4453;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <Button fx:id="Save" layoutX="598.0" layoutY="535.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="57.0" prefWidth="136.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;" text="Save ">
+         <font>
+            <Font name="Times New Roman Bold" size="26.0" />
+         </font>
+      </Button>
+      <TextField fx:id="PassYear2" alignment="BOTTOM_CENTER" layoutX="902.0" layoutY="343.0" prefHeight="31.0" prefWidth="136.0" promptText="Pass Year" style="-fx-background-color: #ffffff; -fx-border-color: #4b4453;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Institute2" alignment="BOTTOM_CENTER" layoutX="938.0" layoutY="180.0" prefHeight="35.0" prefWidth="263.0" promptText="Name of Institute" style="-fx-border-color: #4b4453; -fx-background-color: #ffffff;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Course2" alignment="BOTTOM_CENTER" layoutX="987.0" layoutY="272.0" prefHeight="25.0" prefWidth="166.0" promptText="Course" style="-fx-border-color: #4b4453; -fx-background-color: #ffffff;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Grade2" alignment="BOTTOM_CENTER" layoutX="1085.0" layoutY="343.0" prefHeight="31.0" prefWidth="136.0" promptText="Grade" style="-fx-background-color: #ffffff; -fx-border-color: #4b4453;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="PassYear1" alignment="BOTTOM_CENTER" layoutX="492.0" layoutY="343.0" prefHeight="31.0" prefWidth="136.0" promptText="Pass Year" style="-fx-background-color: #ffffff; -fx-border-color: #4b4453;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Institute1" alignment="BOTTOM_CENTER" layoutX="528.0" layoutY="180.0" prefHeight="35.0" prefWidth="263.0" promptText="Name of Institute" style="-fx-border-color: #4b4453; -fx-background-color: #ffffff;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Course1" alignment="BOTTOM_CENTER" layoutX="577.0" layoutY="272.0" prefHeight="25.0" prefWidth="166.0" promptText="Course" style="-fx-border-color: #4b4453; -fx-background-color: #ffffff;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Grade1" alignment="BOTTOM_CENTER" layoutX="675.0" layoutY="343.0" prefHeight="31.0" prefWidth="136.0" promptText="Grade" style="-fx-background-color: #ffffff; -fx-border-color: #4b4453;" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="17.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

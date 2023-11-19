@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="929.0" style="-fx-background-color: #64adf6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.WorkExp">
+    <stylesheets>
+        <URL value="@filestyle.css" />
+    </stylesheets>
+    <children>
+        <AnchorPane layoutX="21.0" layoutY="102.0" prefHeight="458.0" prefWidth="386.0" style="-fx-background-color: white;">
+            <children>
+                <TextField fx:id="Comp1" alignment="CENTER" layoutX="47.0" layoutY="100.0" prefHeight="74.0" prefWidth="274.0" promptText="Company" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+                    <font>
+                        <Font name="Times New Roman Bold Italic" size="18.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="Design1" alignment="CENTER" layoutX="38.0" layoutY="236.0" prefHeight="46.0" prefWidth="291.0" promptText="Designation" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="15.0" />
+               </font></TextField>
+            <TextField fx:id="JoinDate1" alignment="CENTER" layoutX="25.0" layoutY="354.0" prefHeight="46.0" prefWidth="159.0" promptText="Join Date" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="15.0" />
+               </font></TextField>
+            <TextField fx:id="EndDate1" alignment="CENTER" layoutX="209.0" layoutY="354.0" prefHeight="46.0" prefWidth="159.0" promptText="End Date" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="15.0" />
+               </font></TextField>
+            <Label alignment="CENTER" prefHeight="74.0" prefWidth="386.0" style="-fx-background-color: #4B4453;" text="Field 1" textFill="#fffdfd">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+        <Button fx:id="Save" alignment="CENTER" layoutX="416.0" layoutY="599.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="46.0" prefWidth="98.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="Save">
+            <font>
+                <Font name="Times New Roman Bold" size="24.0" />
+            </font>
+        </Button>
+        <Label alignment="CENTER" layoutX="353.0" layoutY="14.0" prefHeight="74.0" prefWidth="248.0" text="Work Experience" textFill="#000000">
+            <font>
+                <Font name="Times New Roman Bold" size="32.0" />
+            </font>
+        </Label>
+        <AnchorPane layoutX="516.0" layoutY="102.0" prefHeight="458.0" prefWidth="386.0" style="-fx-background-color: white;">
+            <children>
+                <TextField fx:id="Comp2" alignment="CENTER" layoutX="63.0" layoutY="103.0" prefHeight="74.0" prefWidth="274.0" promptText="Company" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+                    <font>
+                        <Font name="Times New Roman Bold Italic" size="18.0" />
+                    </font>
+                </TextField>
+                <TextField fx:id="Design2" alignment="CENTER" layoutX="55.0" layoutY="229.0" prefHeight="46.0" prefWidth="291.0" promptText="Designation" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="15.0" />
+               </font></TextField>
+            <TextField fx:id="JoinDate2" alignment="CENTER" layoutX="32.0" layoutY="344.0" prefHeight="46.0" prefWidth="159.0" promptText="Join Date" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="15.0" />
+               </font></TextField>
+            <TextField fx:id="EndDate2" alignment="CENTER" layoutX="213.0" layoutY="344.0" prefHeight="46.0" prefWidth="159.0" promptText="End Date" style="-fx-border-color: #4B4453;" stylesheets="@filestyle.css">
+               <font>
+                  <Font name="Times New Roman Bold Italic" size="15.0" />
+               </font></TextField>
+            <Label alignment="CENTER" prefHeight="74.0" prefWidth="392.0" style="-fx-background-color: #4B4453;" text="Field 2" textFill="#fffdfd">
+               <font>
+                  <Font name="Arial Black" size="24.0" />
+               </font>
+            </Label>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

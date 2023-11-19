@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="659.0" prefWidth="1283.0" style="-fx-background-color: #64adf6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Home">
+
+   <children>
+      <Button fx:id="Skills" layoutX="490.0" layoutY="255.0" mnemonicParsing="false" onAction="#Skill" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" />
+      <Button fx:id="PersonalInfo" layoutX="490.0" layoutY="135.0" mnemonicParsing="false" onAction="#Personalinfo" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" />
+      <Button fx:id="Education" layoutX="490.0" layoutY="195.0" mnemonicParsing="false" onAction="#Education" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" />
+      <Button fx:id="WorkExp" layoutX="490.0" layoutY="315.0" mnemonicParsing="false" onAction="#WorkExp" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" />
+      <Button fx:id="Project" layoutX="490.0" layoutY="375.0" mnemonicParsing="false" onAction="#Project" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" />
+      <Button fx:id="Achievement" layoutX="490.0" layoutY="436.0" mnemonicParsing="false" onAction="#Achievement" prefHeight="50.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" />
+      <Button fx:id="Gen" layoutX="536.0" layoutY="589.0" mnemonicParsing="false" onAction="#GenResume" prefHeight="50.0" prefWidth="210.0" style="-fx-background-color: #ffffff; -fx-background-radius: 10;" text="Generate CV">
+         <font>
+            <Font name="Times New Roman Bold" size="24.0" />
+         </font></Button>
+      <Button fx:id="FileLocation" layoutX="705.0" layoutY="515.0" mnemonicParsing="false" onAction="#Browse" prefHeight="50.0" prefWidth="81.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" text="Browse">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font></Button>
+      <TextField fx:id="fileloc" layoutX="490.0" layoutY="515.0" prefHeight="50.0" prefWidth="210.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10;" styleClass="none">
+         <font>
+            <Font size="13.0" />
+         </font></TextField>
+      <AnchorPane layoutX="402.0" prefHeight="100.0" prefWidth="550.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="70" layoutY="26.0" prefHeight="74.0"  text="CV MAKER" textAlignment="JUSTIFY" textFill="#000000">
+               <font>
+                  <Font name="Bodoni MT Condensed Bold" size="69.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+
+      <Label layoutX="592.0" layoutY="151.0" text="Personal Info">
+      <font>
+         <Font name="Times New Roman" size="18.0" />
+      </font>
+      </Label>
+      <Label layoutX="603.0" layoutY="211.0" text="Education">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="619.0" layoutY="273.0" text="Skills">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="576.0" layoutY="331.0" text="Work Experience">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="611.0" layoutY="391.0" text="Projects">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="588.0" layoutY="452.0" text="Achievements">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="510.0" layoutY="525.0" opacity="0.14" prefHeight="32.0" prefWidth="172.0" text="Destination Folder">
+         <font>
+            <Font name="Times New Roman" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="butto" layoutX="1171.0" layoutY="607.0" mnemonicParsing="false" onAction="#logout" prefHeight="32.0" prefWidth="97.0" style="-fx-background-color: #ffffff;" text="Logout">
+         <font>
+            <Font name="Times New Roman Bold" size="18.0" />
+         </font>
+      </Button>
+
+   </children>
+   <stylesheets>
+      <URL value="@filestyle.css" />
+   </stylesheets>
+</AnchorPane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="500.0" style="-fx-background-color: #64adf6;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Personal">
+    <stylesheets>
+        <URL value="@filestyle.css" />
+    </stylesheets>
+    <children>
+        <Label alignment="CENTER" layoutX="105.0" layoutY="51.0" prefHeight="74.0" prefWidth="290.0" text="Personal Info" textFill="#000000">
+            <font>
+                <Font name="Times New Roman Bold" size="35.0" />
+            </font>
+        </Label>
+        <TextField fx:id="FirstName" layoutX="69.0" layoutY="166.0" prefHeight="41.0" prefWidth="176.0" promptText="FirstName" style="-fx-border-color: #4B4453;" styleClass="text-field" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="15.0" />
+         </font></TextField>
+        <TextField fx:id="LastName" layoutX="268.0" layoutY="166.0" prefHeight="42.0" prefWidth="149.0" promptText="LastName" style="-fx-border-color: #4B4453;" styleClass="text-field" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="15.0" />
+         </font></TextField>
+        <TextField fx:id="Phone" layoutX="69.0" layoutY="270.0" prefHeight="42.0" prefWidth="157.0" promptText="Phone" style="-fx-border-color: #4B4453;" styleClass="text-field" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="15.0" />
+         </font></TextField>
+        <TextField fx:id="LinkedIn" layoutX="261.0" layoutY="270.0" prefHeight="42.0" prefWidth="150.0" promptText="Linkedin" style="-fx-border-color: #4B4453;" styleClass="text-field" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="15.0" />
+         </font></TextField>
+        <TextField fx:id="EmailId" layoutX="69.0" layoutY="358.0" prefHeight="42.0" prefWidth="342.0" promptText="EmailId" style="-fx-border-color: #4B4453;" styleClass="text-field" stylesheets="@filestyle.css">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="15.0" />
+         </font></TextField>
+        <Button fx:id="Save" layoutX="198.0" layoutY="485.0" mnemonicParsing="false" onAction="#saveButton" prefHeight="52.0" prefWidth="121.0" style="-fx-background-color: #ffffff;" text="Save ">
+            <font>
+                <Font name="Times New Roman Bold" size="22.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
