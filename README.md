@@ -1,1 +1,27 @@
-# CV-Maker
+# CV Maker
+
+### Application:
+This application streamlines the process of crafting a resume for individuals, offering flexibility and eliminating the necessity of contemplating and designing a suitable CV based on qualifications. Users only need to complete a form that includes inquiries covering various essential fields such as personal information, education, qualities, interests, skills, and more.
+***
+
+### Technologies used:
+- Java Language
+- itextpdf
+- JavaFX Framework
+- Scenebuilder
+
+***
+### How to setup the project on local environment
+1. Clone the repository through the following link.
+```
+https://github.com/kushal7201/CV-Maker
+```
+2. Add JavaFx Framework to your project. If you are using Intellij IDE then follow **[this](https://www.jetbrains.com/help/idea/javafx.html)** link for guidance.
+3. Trust the project to include itext libraries.
+4. After that Login(Username: Kushal  ,Password: k-11) which can be skipped through skip option.
+5. Enter the required details and browse a destination folder for download the CV pdf. 
+6. Press "Generate CV" then CV pdf will be generated in the destination folder.
+
+
+***
+### App Images
